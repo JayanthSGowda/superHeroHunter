@@ -255,3 +255,5 @@ function addInfoInLocalStorage() {
 
      localStorage.setItem("heroInfo", JSON.stringify(heroInfo));
 }
+
+

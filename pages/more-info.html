@@ -2,11 +2,11 @@
 <html lang="en" id="root">
 <head>
     <meta charset="UTF-8">
-    <title>SuperHero Hunter</title>
+    <title id="page-title">SuperHero Hunter</title>
     <link rel="icon" type="image/x-icon" href="images/fav.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/09e92345d9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
 
 </head>
 <body>
@@ -30,12 +30,16 @@
 
    </nav>
 
+   <div class="flex-row info">
+    <section class="flex-col" id="info-container">
+         
+    </section>
+</div>
+
      <!-- Toasts for notifying user that character is added or removed from favourites -->
      <span data-visiblity="hide" class="fav-toast">Added to Favourites</span>
      <span data-visiblity="hide" class="remove-toast">Removed from Favourites</span>
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
-    <script src="scripts/script.js"></script>
+    <script src="../scripts/moreInfo.js"></script>
 </body>
 </html>
